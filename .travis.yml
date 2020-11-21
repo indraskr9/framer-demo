@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "stable"
+
+script:
+  - yarn
+  - yarn test
+
+before_deploy:
+  - yarn build
+
+deploy:
+  provider: surge
+  domain: framer-demo-dni9.surge.sh
+  project: ./build/
