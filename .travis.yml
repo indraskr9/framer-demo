@@ -13,3 +13,5 @@ deploy:
   provider: surge
   domain: framer-demo-dni9.surge.sh
   project: ./build/
+  on:
+    branch: main
