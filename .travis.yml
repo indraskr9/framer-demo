@@ -12,7 +12,7 @@ before_deploy:
 deploy:
   provider: surge
   domain: framer-demo-dni9.surge.sh
-  project: ./build/
+  project: build
   cleanup: false
   on:
     branch: main
