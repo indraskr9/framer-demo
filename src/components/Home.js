@@ -34,7 +34,7 @@ const Home = () => {
       initial='hidden'
       animate='visible'
       exit='exit'>
-      <h2>Welcome to Pizza Joint</h2>
+      <h2>Welcome to Pizza Hut</h2>
       <Link to='/base'>
         <motion.button variants={buttonVariants} whileHover='hover'>
           Create Your Pizza
